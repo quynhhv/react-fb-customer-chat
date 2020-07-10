@@ -7,7 +7,8 @@
 ## Installation
 
 ```sh
-npm install react-messenger-customer-chat
+npm install react-fb-customer-chat
+npm install git+ssh://git@github.com:quynhhv/react-fb-customer-chat.git
 ```
 
 ## Usage

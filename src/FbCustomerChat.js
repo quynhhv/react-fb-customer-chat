@@ -8,8 +8,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
 }));
-// const pageId = '450945714920633';
-// appId = '296027061767780'
+
 // https://developers.facebook.com/docs/messenger-platform/discovery/customer-chat-plugin
 const FbCustomerChat = React.memo(function CustomerChat(props) {
   const timeoutRef = React.useRef();
