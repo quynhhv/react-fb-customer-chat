@@ -2,10 +2,7 @@
 
 > React component for [Messenger customer chat plugin](https://developers.facebook.com/docs/messenger-platform/discovery/customer-chat-plugin)
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-
 
 ## Installation
 
@@ -16,18 +13,15 @@ npm install react-messenger-customer-chat
 ## Usage
 
 ```js
-import React from 'react';
-import ReactDOM from 'react-dom';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import React from "react";
+import ReactDOM from "react-dom";
+import FbCustomerChat from "react-fb-customer-chat";
 
-ReactDOM.render(
-  <MessengerCustomerChat
-    pageId="<PAGE_ID>"
-    appId="<APP_ID>"
-    htmlRef="<REF_STRING>"
-  />,
-  document.getElementById('demo')
-);
+<FbCustomerChat
+  pageId="<PAGE_ID>"
+  appId="<APP_ID>"
+  themeColor="<REF_STRING>"
+/>;
 ```
 
 > Note: It will handle sdk initialize automatically for you. See more details in
