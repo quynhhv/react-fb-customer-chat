@@ -3,9 +3,9 @@
   "description": "React component for messenger customer chat",
   "license": "MIT",
   "version": "0.1.0",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "files": [
-    "src"
+    "lib"
   ],
   "scripts": {
     "build": "npm run clean && babel src -d lib --ignore __tests__",
@@ -20,9 +20,6 @@
     "testonly:cov": "jest --coverage --runInBand --forceExit",
     "testonly:watch": "jest --watch",
     "preversion": "npm test"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.0"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0"

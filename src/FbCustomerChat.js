@@ -1,14 +1,6 @@
 import React from 'react';
 import { useFacebook } from './useFacebook';
 
-const useStyles = makeStyles(theme => ({
-  '@global': {
-    '.fb_dialog,.fb_reset iframe': {
-      zIndex: `${theme.zIndex.modal - 10} !important`,
-    },
-  },
-}));
-
 // https://developers.facebook.com/docs/messenger-platform/discovery/customer-chat-plugin
 const FbCustomerChat = React.memo(function CustomerChat(props) {
   const timeoutRef = React.useRef();
